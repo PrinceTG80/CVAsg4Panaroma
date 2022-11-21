@@ -74,8 +74,7 @@ def aboutMe():
             Please login via Google
         </button>
     </a>
-    ''',
-    unsafe_allow_html=True
+    '''
     )
 
 # Panorama 
