@@ -68,7 +68,15 @@ def uploadImages(key):
 
 def aboutMe():
     
-    st.markdown(requests.get(os.getenv('ABOUT_ME','https://github.com/PrinceTG80')).text, unsafe_allow_html=True)
+    st.write(f'''
+    <a target="_self" href="https://github.com/PrinceTG80">
+        <button>
+            Please login via Google
+        </button>
+    </a>
+    ''',
+    unsafe_allow_html=True
+    )
 
 # Panorama 
 
