@@ -69,11 +69,10 @@ def uploadImages(key):
 def aboutMe():
     
     st.write(f'''
-    <a target="_self" href="https://github.com/PrinceTG80">
-        <button>
-            Please login via Google
-        </button>
-    </a>
+    TUSHAR GAVKHARE
+    A3 -157
+    0120190374
+    CVASG 4
     '''
     )
 
